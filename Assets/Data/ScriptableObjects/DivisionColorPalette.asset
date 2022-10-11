@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eca62e3826a9524ab35fa17b8eeb693, type: 3}
+  m_Name: DivisionColorPalette
+  m_EditorClassIdentifier: 
+  textureColorPairs:
+  - divisionColor: {r: 0.4039216, g: 0.39607847, b: 0.45098042, a: 1}
+    divisionTexture: {fileID: 2800000, guid: 16372822d961627429d1a4472d437721, type: 3}
+    heroFlagTexture: {fileID: 2800000, guid: 7f92907bab086a14183c3ae9dec6b758, type: 3}
+    swordsmanFlagTexture: {fileID: 2800000, guid: 17f0d730e53dc7b4bb3117e49ab1689e,
+      type: 3}
+    pikemanFlagTexture: {fileID: 2800000, guid: 80cc74d3d1fdac0469fcf1b80145198e,
+      type: 3}
+    archerFlagTexture: {fileID: 2800000, guid: 785ebaac5824f814b98ef15fe79bd6ac, type: 3}
+  - divisionColor: {r: 0.09411766, g: 0.24705884, b: 0.47450984, a: 1}
+    divisionTexture: {fileID: 2800000, guid: f55e7f2fc0b103a4c9665256cbdd0dd8, type: 3}
+    heroFlagTexture: {fileID: 2800000, guid: d0f29f943404f9e4dac05fbeb491f5e0, type: 3}
+    swordsmanFlagTexture: {fileID: 2800000, guid: 11263ab7933447c44b8b7ed4e1355eac,
+      type: 3}
+    pikemanFlagTexture: {fileID: 2800000, guid: 4c390c2244f2732439703f19cd165aa5,
+      type: 3}
+    archerFlagTexture: {fileID: 2800000, guid: bcc6123ffca62214291d5146b9e7fb98, type: 3}
+  - divisionColor: {r: 0.3647059, g: 0.24313727, b: 0.14901961, a: 1}
+    divisionTexture: {fileID: 2800000, guid: f30d950570d16a841a6a2534a5350f15, type: 3}
+    heroFlagTexture: {fileID: 2800000, guid: 3eb1c53bbe9996f4db8f6ce9a3164e68, type: 3}
+    swordsmanFlagTexture: {fileID: 2800000, guid: 8c23f197de5181645ae473e09748abaa,
+      type: 3}
+    pikemanFlagTexture: {fileID: 2800000, guid: 3fea2e767fa47bd4187bbd4240f83d43,
+      type: 3}
+    archerFlagTexture: {fileID: 2800000, guid: 99cac4ecb9aa0004c9e33f7e72eea8fe, type: 3}
+  - divisionColor: {r: 0.16078432, g: 0.5176471, b: 0.24313727, a: 1}
+    divisionTexture: {fileID: 2800000, guid: 2cf8e44fe6d6f974b94348fb986a0edf, type: 3}
+    heroFlagTexture: {fileID: 2800000, guid: 3435e49911eecf44f97d911f4b7e9ee9, type: 3}
+    swordsmanFlagTexture: {fileID: 2800000, guid: 37053f29b236dce4ca479e0df7845d53,
+      type: 3}
+    pikemanFlagTexture: {fileID: 2800000, guid: dfa794ae4de210e46afd287b378a7e4a,
+      type: 3}
+    archerFlagTexture: {fileID: 2800000, guid: b575069056cc1194d836d5201d9e9d72, type: 3}
+  - divisionColor: {r: 0.9686275, g: 0.61960787, b: 0.3647059, a: 1}
+    divisionTexture: {fileID: 2800000, guid: 199ec9727405c9e4c9985e5586b8db46, type: 3}
+    heroFlagTexture: {fileID: 2800000, guid: 0aa2d5e358b9b4749910be076887c9bc, type: 3}
+    swordsmanFlagTexture: {fileID: 2800000, guid: e728571a6c006d44ca43c7aecfc1066f,
+      type: 3}
+    pikemanFlagTexture: {fileID: 2800000, guid: 4626f9c737ef6704cb537119be64370e,
+      type: 3}
+    archerFlagTexture: {fileID: 2800000, guid: 6223429cc95897743bb4004429ab4cef, type: 3}
+  - divisionColor: {r: 0.9568628, g: 0.25490198, b: 0.56078434, a: 1}
+    divisionTexture: {fileID: 2800000, guid: 2a7b3365d12efa24895ea9d00d5ba364, type: 3}
+    heroFlagTexture: {fileID: 2800000, guid: 97c525f9c9d4f5d46899cfcefcd3e37f, type: 3}
+    swordsmanFlagTexture: {fileID: 2800000, guid: c70ac25c97dbc4446ae63d11bcb0612e,
+      type: 3}
+    pikemanFlagTexture: {fileID: 2800000, guid: cc674d5e35f4814428e9c58381b4d67d,
+      type: 3}
+    archerFlagTexture: {fileID: 2800000, guid: b5e2da83e7061d046865874fbdaf5b99, type: 3}
+  - divisionColor: {r: 0.47058827, g: 0.15294118, b: 0.70980394, a: 1}
+    divisionTexture: {fileID: 2800000, guid: cfb021834f6dd924e8d498b98414db0b, type: 3}
+    heroFlagTexture: {fileID: 2800000, guid: 4e65f7032fa35ae4a8d5027afcb00462, type: 3}
+    swordsmanFlagTexture: {fileID: 2800000, guid: 02246bff70f923e48996bf5a3fa68468,
+      type: 3}
+    pikemanFlagTexture: {fileID: 2800000, guid: 63e4283c919959a43b4816df43252c81,
+      type: 3}
+    archerFlagTexture: {fileID: 2800000, guid: bc56727a8dbb5684ba7193db81c9a40b, type: 3}
+  - divisionColor: {r: 0.54901963, g: 0.21176472, b: 0.22352943, a: 1}
+    divisionTexture: {fileID: 2800000, guid: 2eb9184f1229d66429a42aa2348ddcd0, type: 3}
+    heroFlagTexture: {fileID: 2800000, guid: 2c794367ebe6d4a4d9448d8bb246635c, type: 3}
+    swordsmanFlagTexture: {fileID: 2800000, guid: 53150f7a19cbec642ba7fe4de3689e7e,
+      type: 3}
+    pikemanFlagTexture: {fileID: 2800000, guid: 01848490704c3f14ebe42892dfe3253d,
+      type: 3}
+    archerFlagTexture: {fileID: 2800000, guid: d4d4b6a3d3ba5aa4f9829a036d2c1d63, type: 3}
+  - divisionColor: {r: 0.98823535, g: 1, b: 0.8941177, a: 1}
+    divisionTexture: {fileID: 2800000, guid: 155889d4630a66a49b3c70df31e00438, type: 3}
+    heroFlagTexture: {fileID: 2800000, guid: 4cc806a2a7791184d958b53c3bdf7ce3, type: 3}
+    swordsmanFlagTexture: {fileID: 2800000, guid: d376cfd84f72f4346911e4087b8072cd,
+      type: 3}
+    pikemanFlagTexture: {fileID: 2800000, guid: 32a61345a39b87e4380df3127ccb2ff8,
+      type: 3}
+    archerFlagTexture: {fileID: 2800000, guid: e5b9e032ca845ea4cb5e9bc732da95b7, type: 3}
+  - divisionColor: {r: 0.9686275, g: 0.98823535, b: 0.37647063, a: 1}
+    divisionTexture: {fileID: 2800000, guid: af777b861a0a75c43bc6f6db2331473d, type: 3}
+    heroFlagTexture: {fileID: 2800000, guid: 5588f865befc5c740b5ec407703747de, type: 3}
+    swordsmanFlagTexture: {fileID: 2800000, guid: 258e672c99f96bb408aed0eb5fe80297,
+      type: 3}
+    pikemanFlagTexture: {fileID: 2800000, guid: 9f64edab12a79264fba686cb7fe8c6e7,
+      type: 3}
+    archerFlagTexture: {fileID: 2800000, guid: 215fcd4ea7d8a1e4a8085f2ffd40b82d, type: 3}
+  friendlyColor: {r: 0, g: 0.60323405, b: 1, a: 1}
+  enemyColor: {r: 1, g: 0, b: 0, a: 1}

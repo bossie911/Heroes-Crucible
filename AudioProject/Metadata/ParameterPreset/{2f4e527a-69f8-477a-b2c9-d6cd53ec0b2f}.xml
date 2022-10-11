@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{2f4e527a-69f8-477a-b2c9-d6cd53ec0b2f}">
+		<property name="name">
+			<value>GodFavor</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a418e0de-c7d0-05c9-280a-b529dc02e12e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{53420c0d-a237-4f5d-a528-e183d36a6769}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{53420c0d-a237-4f5d-a528-e183d36a6769}">
+		<property name="maximum">
+			<value>0.10000000000000001</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

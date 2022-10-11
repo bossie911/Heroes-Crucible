@@ -1,0 +1,4 @@
+var class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_u_i_1_1_inventory_item_loading_bar =
+[
+    [ "Setup", "class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_u_i_1_1_inventory_item_loading_bar.html#a302f410fb8a41a0b8e661cd3990d5d89", null ]
+];

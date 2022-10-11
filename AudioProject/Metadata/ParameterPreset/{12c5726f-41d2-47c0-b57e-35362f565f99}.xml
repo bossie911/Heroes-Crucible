@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{12c5726f-41d2-47c0-b57e-35362f565f99}">
+		<property name="name">
+			<value>FloodDuration</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a418e0de-c7d0-05c9-280a-b529dc02e12e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6580a5e7-27c4-4efd-ab91-29bb84e6cdb4}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6580a5e7-27c4-4efd-ab91-29bb84e6cdb4}">
+		<property name="maximum">
+			<value>10</value>
+		</property>
+		<property name="initialValue">
+			<value>3</value>
+		</property>
+	</object>
+</objects>

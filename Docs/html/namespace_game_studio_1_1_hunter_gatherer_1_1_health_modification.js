@@ -1,0 +1,7 @@
+var namespace_game_studio_1_1_hunter_gatherer_1_1_health_modification =
+[
+    [ "ConditionalHealthModifier", "class_game_studio_1_1_hunter_gatherer_1_1_health_modification_1_1_conditional_health_modifier.html", "class_game_studio_1_1_hunter_gatherer_1_1_health_modification_1_1_conditional_health_modifier" ],
+    [ "HealthModifier", "class_game_studio_1_1_hunter_gatherer_1_1_health_modification_1_1_health_modifier.html", "class_game_studio_1_1_hunter_gatherer_1_1_health_modification_1_1_health_modifier" ],
+    [ "HealthSystem", "class_game_studio_1_1_hunter_gatherer_1_1_health_modification_1_1_health_system.html", "class_game_studio_1_1_hunter_gatherer_1_1_health_modification_1_1_health_system" ],
+    [ "TimedHealthModifier", "class_game_studio_1_1_hunter_gatherer_1_1_health_modification_1_1_timed_health_modifier.html", "class_game_studio_1_1_hunter_gatherer_1_1_health_modification_1_1_timed_health_modifier" ]
+];

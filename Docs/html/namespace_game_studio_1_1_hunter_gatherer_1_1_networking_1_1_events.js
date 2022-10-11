@@ -1,0 +1,13 @@
+var namespace_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events =
+[
+    [ "ArmorEquipInfo", "struct_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events_1_1_armor_equip_info.html", "struct_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events_1_1_armor_equip_info" ],
+    [ "InteractionInfoSpawnData", "struct_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events_1_1_interaction_info_spawn_data.html", "struct_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events_1_1_interaction_info_spawn_data" ],
+    [ "ItemSourceModificationInfo", "struct_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events_1_1_item_source_modification_info.html", "struct_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events_1_1_item_source_modification_info" ],
+    [ "NetworkingEventHandler", "class_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events_1_1_networking_event_handler.html", "class_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events_1_1_networking_event_handler" ],
+    [ "PackedItemInfo", "struct_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events_1_1_packed_item_info.html", "struct_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events_1_1_packed_item_info" ],
+    [ "SceneObjectSpawnInfo", "struct_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events_1_1_scene_object_spawn_info.html", "struct_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events_1_1_scene_object_spawn_info" ],
+    [ "StatModificationInfo", "struct_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events_1_1_stat_modification_info.html", "struct_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events_1_1_stat_modification_info" ],
+    [ "TentModificationInfo", "struct_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events_1_1_tent_modification_info.html", "struct_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events_1_1_tent_modification_info" ],
+    [ "UnitAnimationInfo", "struct_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events_1_1_unit_animation_info.html", "struct_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events_1_1_unit_animation_info" ],
+    [ "WeaponEquipInfo", "struct_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events_1_1_weapon_equip_info.html", "struct_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_events_1_1_weapon_equip_info" ]
+];

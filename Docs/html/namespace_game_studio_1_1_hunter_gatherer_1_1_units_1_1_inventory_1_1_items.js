@@ -1,0 +1,9 @@
+var namespace_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_items =
+[
+    [ "EdibleItem", "class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_items_1_1_edible_item.html", "class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_items_1_1_edible_item" ],
+    [ "EquippableArmor", "class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_items_1_1_equippable_armor.html", "class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_items_1_1_equippable_armor" ],
+    [ "EquippableWeapon", "class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_items_1_1_equippable_weapon.html", "class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_items_1_1_equippable_weapon" ],
+    [ "Item", "class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_items_1_1_item.html", "class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_items_1_1_item" ],
+    [ "PackedItem", "class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_items_1_1_packed_item.html", "class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_items_1_1_packed_item" ],
+    [ "UnfinishedItem", "class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_items_1_1_unfinished_item.html", "class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_items_1_1_unfinished_item" ]
+];

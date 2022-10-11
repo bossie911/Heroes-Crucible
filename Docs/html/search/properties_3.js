@@ -1,0 +1,12 @@
+var searchData=
+[
+  ['damageamplifier_1533',['DamageAmplifier',['../class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_items_1_1_equippable_weapon.html#ac2fcd8715da667fb8a526b4bccd2f325',1,'GameStudio::HunterGatherer::Units::Inventory::Items::EquippableWeapon']]],
+  ['damagereceivedmultiplier_1534',['DamageReceivedMultiplier',['../class_game_studio_1_1_hunter_gatherer_1_1_a_i_1_1_state_machine_1_1_state_controller_data.html#ad1e83b67ff3b8722364727bc8dadcb77',1,'GameStudio.HunterGatherer.AI.StateMachine.StateControllerData.DamageReceivedMultiplier()'],['../class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_items_1_1_equippable_armor.html#ae01a9c13cd681767ecdaceb8f91d173c',1,'GameStudio.HunterGatherer.Units.Inventory.Items.EquippableArmor.DamageReceivedMultiplier()']]],
+  ['data_1535',['Data',['../class_game_studio_1_1_hunter_gatherer_1_1_a_i_1_1_state_machine_1_1_state_controller.html#a959ac497a5de27f6db7ea676b7394740',1,'GameStudio::HunterGatherer::AI::StateMachine::StateController']]],
+  ['defaultunitcolor_1536',['DefaultUnitColor',['../class_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_networking_player_manager.html#a063593ded75c6a9634492c156b18bfd8',1,'GameStudio::HunterGatherer::Networking::NetworkingPlayerManager']]],
+  ['direction_1537',['Direction',['../class_game_studio_1_1_hunter_gatherer_1_1_a_i_1_1_navigation_1_1_waypoint.html#aebfb7659bdfb4d66385a325a47f238d6',1,'GameStudio::HunterGatherer::AI::Navigation::Waypoint']]],
+  ['displayableproperties_1538',['DisplayableProperties',['../class_game_studio_1_1_hunter_gatherer_1_1_selection_1_1_selectable_object.html#a3cb45e6ee405cf1cce66a58638c030be',1,'GameStudio::HunterGatherer::Selection::SelectableObject']]],
+  ['draggingitem_1539',['DraggingItem',['../class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_u_i_1_1_inventory_item_drag_manager.html#a1ff9249b826a345ef6b657c86a19ae17',1,'GameStudio::HunterGatherer::Units::Inventory::UI::InventoryItemDragManager']]],
+  ['drawmargin_1540',['DrawMargin',['../class_game_studio_1_1_hunter_gatherer_1_1_game_state_1_1_game_state_manager.html#acdae964e62c1694d7f4f00b525cbc108',1,'GameStudio::HunterGatherer::GameState::GameStateManager']]],
+  ['dropdistance_1541',['DropDistance',['../class_game_studio_1_1_hunter_gatherer_1_1_a_i_1_1_state_machine_1_1_state_controller_data.html#a614ce738d1df88aa1c534cc26c138453',1,'GameStudio::HunterGatherer::AI::StateMachine::StateControllerData']]]
+];

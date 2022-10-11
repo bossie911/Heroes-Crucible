@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - UnitSpawnPoint
+  - Hero
+  - Base
+  - Building
+  - BarracksPlot
+  - CraftingHutPlot
+  - Barracks
+  - CraftingHut
+  - Unit
+  - Division
+  - SelectionManager
+  - GodFavorUI
+  - DivisionCard
+  - HeroHealthBar
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Terrain
+  - Entities
+  - FogOfWarMask
+  - FogOfWarInteract
+  - Flood
+  - FloodInteract
+  - Division
+  - DivisionInteract
+  - Base
+  - Post Processing
+  - Items
+  - GodPower
+  - GodShield
+  - Minimap
+  - Structure
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

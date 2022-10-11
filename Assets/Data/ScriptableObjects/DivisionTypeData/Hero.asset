@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ea885a82d1ec854bb9d67eb643fcc64, type: 3}
+  m_Name: Hero
+  m_EditorClassIdentifier: 
+  typeName: Hero
+  type: 3
+  isWeakToType: 5
+  icon: {fileID: 21300000, guid: a36de2d8ab46eb64080fd13049bbdd72, type: 3}
+  prefabUnit: {fileID: 7582521633882959531, guid: 3d4fbdac61bca0f43b2315664bb465e4,
+    type: 3}
+  iconPath: icHelmet
+  prefabUnitPath: Hero
+  maxUnitCount: 1
+  movementSpeed: 10
+  movementSpeedRunning: 1
+  distanceFromEnemiesToStartRunning: 0
+  moveSpeedUpTime: 10
+  moveSpeedUpFinishedTime: 15
+  moveSpeedIncreasePercent: 0.5
+  damage: 4
+  weaknessHitMultiplier: 2
+  hitChance: 1
+  range: 5
+  autoAttackRange: 15
+  cooldown: 1
+  chargeUpTime: 0
+  favorGainedOnHit: 0.5
+  maxHealth: 1000

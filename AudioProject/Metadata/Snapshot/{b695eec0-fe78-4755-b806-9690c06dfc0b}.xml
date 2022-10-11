@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="Snapshot" id="{b695eec0-fe78-4755-b806-9690c06dfc0b}">
+		<property name="name">
+			<value>Cave Reverb</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{204ed808-83ea-42f4-b502-9b293dd2b6ba}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{6a677dd6-6dc7-473e-a218-767b4130af51}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{6fee47b7-e02f-4fc9-b61c-c20634b5ca4f}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{c7eb85c4-2e63-45c2-8f14-1cd66f393fd3}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{a6eb4292-3e2c-457d-9483-cdc1b517139a}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{6a677dd6-6dc7-473e-a218-767b4130af51}">
+		<relationship name="modulators">
+			<destination>{b51a8f9e-1b77-4c37-a672-b626e33024f5}</destination>
+		</relationship>
+	</object>
+	<object class="MarkerTrack" id="{6fee47b7-e02f-4fc9-b61c-c20634b5ca4f}" />
+	<object class="Timeline" id="{c7eb85c4-2e63-45c2-8f14-1cd66f393fd3}" />
+	<object class="SnapshotMasterTrack" id="{a6eb4292-3e2c-457d-9483-cdc1b517139a}" />
+	<object class="ADSRModulator" id="{b51a8f9e-1b77-4c37-a672-b626e33024f5}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>snapshotIntensity</value>
+		</property>
+		<property name="peakValue">
+			<value>100</value>
+		</property>
+		<property name="sustainValue">
+			<value>100</value>
+		</property>
+	</object>
+</objects>

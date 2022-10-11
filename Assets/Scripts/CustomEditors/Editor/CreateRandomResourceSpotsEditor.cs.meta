@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scripts/EventManager.cs.meta
+guid: 7992b5eee000ae64f8821075d34433fb
+=======
+guid: 0749221988b33ec4c98d00ad10a8f6bf
+>>>>>>> 846bd8d48e659c90791647fac31921e561f619e7:Assets/Editor/CustomEditors/CreateRandomResourceSpotsEditor.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

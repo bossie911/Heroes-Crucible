@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ea885a82d1ec854bb9d67eb643fcc64, type: 3}
+  m_Name: Nomad
+  m_EditorClassIdentifier: 
+  typeName: Nomad
+  type: 4
+  isWeakToType: 5
+  icon: {fileID: 21300000, guid: 21725342c1c691442863db78eded5fd6, type: 3}
+  prefabUnit: {fileID: 650024840913803989, guid: 846794ffd27642841bedb385a29f72f5,
+    type: 3}
+  iconPath: 
+  prefabUnitPath: 
+  maxUnitCount: 40
+  movementSpeed: 4
+  movementSpeedRunning: 8
+  distanceFromEnemiesToStartRunning: 0
+  moveSpeedUpTime: 10
+  moveSpeedUpFinishedTime: 15
+  moveSpeedIncreasePercent: 0.5
+  damage: 0
+  weaknessHitMultiplier: 2
+  hitChance: 0.5
+  range: 3
+  autoAttackRange: 10
+  cooldown: 2
+  chargeUpTime: 0.5
+  favorGainedOnHit: 0.5
+  maxHealth: 3

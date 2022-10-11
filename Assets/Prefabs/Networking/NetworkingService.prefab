@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7842912289173556790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7842912289173556776}
+  - component: {fileID: 7842912289173556791}
+  - component: {fileID: 7842912289173556778}
+  - component: {fileID: 7842912289173556777}
+  - component: {fileID: -967942180025403013}
+  m_Layer: 0
+  m_Name: NetworkingService
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7842912289173556776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7842912289173556790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7842912289173556791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7842912289173556790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a4e27514c2d214ba91b1231e41ed8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sendRate: 40
+  serializationRate: 20
+  maxPlayersInRoom: 10
+--- !u!114 &7842912289173556778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7842912289173556790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 272e725119142774fbea9dff581d6d97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitSpawnPoints: {fileID: 0}
+  nameOfDivisionPrefab: Division
+  startingDivisionTypes: 000000000100000002000000
+  startingUnitCounterPerDivision: 8
+  maxDivisions: 6
+  spawnDistance: 10
+  collectiveSpawn: 0
+  unitTexturePalette:
+  - {fileID: 2800000, guid: f55e7f2fc0b103a4c9665256cbdd0dd8, type: 3}
+  - {fileID: 2800000, guid: f30d950570d16a841a6a2534a5350f15, type: 3}
+  - {fileID: 2800000, guid: 2cf8e44fe6d6f974b94348fb986a0edf, type: 3}
+  - {fileID: 2800000, guid: 199ec9727405c9e4c9985e5586b8db46, type: 3}
+  - {fileID: 2800000, guid: 2a7b3365d12efa24895ea9d00d5ba364, type: 3}
+  - {fileID: 2800000, guid: cfb021834f6dd924e8d498b98414db0b, type: 3}
+  - {fileID: 2800000, guid: 2eb9184f1229d66429a42aa2348ddcd0, type: 3}
+  - {fileID: 2800000, guid: 155889d4630a66a49b3c70df31e00438, type: 3}
+  - {fileID: 2800000, guid: af777b861a0a75c43bc6f6db2331473d, type: 3}
+  - {fileID: 2800000, guid: 16372822d961627429d1a4472d437721, type: 3}
+  heroFlagTexturePalette:
+  - {fileID: 2800000, guid: d0f29f943404f9e4dac05fbeb491f5e0, type: 3}
+  - {fileID: 2800000, guid: 3eb1c53bbe9996f4db8f6ce9a3164e68, type: 3}
+  - {fileID: 2800000, guid: 3435e49911eecf44f97d911f4b7e9ee9, type: 3}
+  - {fileID: 2800000, guid: 0aa2d5e358b9b4749910be076887c9bc, type: 3}
+  - {fileID: 2800000, guid: 97c525f9c9d4f5d46899cfcefcd3e37f, type: 3}
+  - {fileID: 2800000, guid: 4e65f7032fa35ae4a8d5027afcb00462, type: 3}
+  - {fileID: 2800000, guid: 2c794367ebe6d4a4d9448d8bb246635c, type: 3}
+  - {fileID: 2800000, guid: 4cc806a2a7791184d958b53c3bdf7ce3, type: 3}
+  - {fileID: 2800000, guid: 5588f865befc5c740b5ec407703747de, type: 3}
+  - {fileID: 2800000, guid: 7f92907bab086a14183c3ae9dec6b758, type: 3}
+  archersFlagTexturePalette:
+  - {fileID: 2800000, guid: bcc6123ffca62214291d5146b9e7fb98, type: 3}
+  - {fileID: 2800000, guid: 99cac4ecb9aa0004c9e33f7e72eea8fe, type: 3}
+  - {fileID: 2800000, guid: b575069056cc1194d836d5201d9e9d72, type: 3}
+  - {fileID: 2800000, guid: 6223429cc95897743bb4004429ab4cef, type: 3}
+  - {fileID: 2800000, guid: b5e2da83e7061d046865874fbdaf5b99, type: 3}
+  - {fileID: 2800000, guid: bc56727a8dbb5684ba7193db81c9a40b, type: 3}
+  - {fileID: 2800000, guid: d4d4b6a3d3ba5aa4f9829a036d2c1d63, type: 3}
+  - {fileID: 2800000, guid: e5b9e032ca845ea4cb5e9bc732da95b7, type: 3}
+  - {fileID: 2800000, guid: 215fcd4ea7d8a1e4a8085f2ffd40b82d, type: 3}
+  - {fileID: 2800000, guid: 785ebaac5824f814b98ef15fe79bd6ac, type: 3}
+  pikemenFlagTexturePalette:
+  - {fileID: 2800000, guid: 4c390c2244f2732439703f19cd165aa5, type: 3}
+  - {fileID: 2800000, guid: 3fea2e767fa47bd4187bbd4240f83d43, type: 3}
+  - {fileID: 2800000, guid: dfa794ae4de210e46afd287b378a7e4a, type: 3}
+  - {fileID: 2800000, guid: 4626f9c737ef6704cb537119be64370e, type: 3}
+  - {fileID: 2800000, guid: cc674d5e35f4814428e9c58381b4d67d, type: 3}
+  - {fileID: 2800000, guid: 63e4283c919959a43b4816df43252c81, type: 3}
+  - {fileID: 2800000, guid: 01848490704c3f14ebe42892dfe3253d, type: 3}
+  - {fileID: 2800000, guid: 32a61345a39b87e4380df3127ccb2ff8, type: 3}
+  - {fileID: 2800000, guid: 9f64edab12a79264fba686cb7fe8c6e7, type: 3}
+  - {fileID: 2800000, guid: 80cc74d3d1fdac0469fcf1b80145198e, type: 3}
+  swordsmenFlagTexturePalette:
+  - {fileID: 2800000, guid: 11263ab7933447c44b8b7ed4e1355eac, type: 3}
+  - {fileID: 2800000, guid: 8c23f197de5181645ae473e09748abaa, type: 3}
+  - {fileID: 2800000, guid: 37053f29b236dce4ca479e0df7845d53, type: 3}
+  - {fileID: 2800000, guid: e728571a6c006d44ca43c7aecfc1066f, type: 3}
+  - {fileID: 2800000, guid: c70ac25c97dbc4446ae63d11bcb0612e, type: 3}
+  - {fileID: 2800000, guid: 02246bff70f923e48996bf5a3fa68468, type: 3}
+  - {fileID: 2800000, guid: 53150f7a19cbec642ba7fe4de3689e7e, type: 3}
+  - {fileID: 2800000, guid: d376cfd84f72f4346911e4087b8072cd, type: 3}
+  - {fileID: 2800000, guid: 258e672c99f96bb408aed0eb5fe80297, type: 3}
+  - {fileID: 2800000, guid: 17f0d730e53dc7b4bb3117e49ab1689e, type: 3}
+  defaultUnitTexture: {fileID: 2800000, guid: 16372822d961627429d1a4472d437721, type: 3}
+  defaultHeroFlagTexture: {fileID: 2800000, guid: 7f92907bab086a14183c3ae9dec6b758,
+    type: 3}
+  defaultArchersFlagTexture: {fileID: 2800000, guid: 785ebaac5824f814b98ef15fe79bd6ac,
+    type: 3}
+  defaultPikemenFlagTexture: {fileID: 2800000, guid: 80cc74d3d1fdac0469fcf1b80145198e,
+    type: 3}
+  defaultSwordsmenFlagTexture: {fileID: 2800000, guid: 17f0d730e53dc7b4bb3117e49ab1689e,
+    type: 3}
+  playerNumber: 0
+--- !u!114 &7842912289173556777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7842912289173556790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bf4235941b3d942b3c6e785961aecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movingObjects:
+  - {fileID: 5722153071290541294, guid: 06b8dcfdd619afe4296995232a761d6a, type: 3}
+  - {fileID: 7582521633882959531, guid: 3d4fbdac61bca0f43b2315664bb465e4, type: 3}
+  - {fileID: 836736013493069460, guid: 804fc5b2d1c655e44aad494b2c6a8479, type: 3}
+  - {fileID: 836736013493069460, guid: 0fb6477fc8f85c74b8d6b55559dea88b, type: 3}
+  - {fileID: 836736013493069460, guid: ead34f5e0b867cf42b0e3e1e38210673, type: 3}
+  - {fileID: 3740499539615894541, guid: c047d3c672d6e074e88cbceeedb5ab13, type: 3}
+  - {fileID: 3740499539615894541, guid: e372bc2e5b3ed3b41902320a0d6c8438, type: 3}
+  - {fileID: 7822417700887115091, guid: bf80e61558d3b5743a75af6e6f42ea1f, type: 3}
+  - {fileID: 4371672935796028750, guid: 38845dfba8189af4a96bdfc03477c617, type: 3}
+  - {fileID: 3740499539615894541, guid: 2240c0af2c8e22d408ab4e1e1c304530, type: 3}
+  - {fileID: 7422987351673075427, guid: e2322948275eb204dba191664f3576e8, type: 3}
+  - {fileID: 3740499539615894541, guid: 42679791b36b82f4cb5fab2d93ac3c96, type: 3}
+  - {fileID: 411264026731914737, guid: 6cdfc50d60ce4b54f8fdd7808101ff8a, type: 3}
+  - {fileID: 754053810025643350, guid: 2d6e976b45a44dd4aa2c92395a4bc71f, type: 3}
+  staticObjects: []
+--- !u!114 &-967942180025403013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7842912289173556790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 0
+  OwnershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 0}
+  viewIdField: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

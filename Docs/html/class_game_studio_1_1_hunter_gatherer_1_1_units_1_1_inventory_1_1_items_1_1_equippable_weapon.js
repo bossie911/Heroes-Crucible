@@ -1,0 +1,4 @@
+var class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_items_1_1_equippable_weapon =
+[
+    [ "DamageAmplifier", "class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_items_1_1_equippable_weapon.html#ac2fcd8715da667fb8a526b4bccd2f325", null ]
+];

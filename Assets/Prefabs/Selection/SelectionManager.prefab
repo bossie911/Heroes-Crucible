@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8671625779172216455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8671625779172216449}
+  - component: {fileID: 8671625779172216454}
+  - component: {fileID: 1888962666951316506}
+  - component: {fileID: -8336920401082157475}
+  m_Layer: 0
+  m_Name: SelectionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8671625779172216449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8671625779172216455}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8671625779172216454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8671625779172216455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d2eacc306800b844ae1fe60b500e747, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 0}
+  innerColor: {r: 0, g: 0, b: 0, a: 0}
+  borderColor: {r: 0, g: 1, b: 0, a: 1}
+  borderThickness: 2
+  startDirectionDistance: 2
+  prefabMoveTargetDecal: {fileID: 1994658019979072509, guid: 2c21e3047f2879048a6426ddff11ae37,
+    type: 3}
+  prefabFormationDragDecal: {fileID: 123648892377818030, guid: 4b4c6a4b5be16454aa6e5c2b6b6cb305,
+    type: 3}
+  minimapIcons: {fileID: 0}
+  onDivisionSelected:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1888962666951316506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8671625779172216455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdc0bd85de112e54bbfb94eaf4926b15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyColor: {r: 1, g: 0, b: 0, a: 1}
+  objectColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  friendlyColor: {r: 0, g: 0, b: 1, a: 1}
+  prefabSelectionDecal: {fileID: 694694073727865872, guid: fdb39906ea5879a459baa97e795355f2,
+    type: 3}
+--- !u!114 &-8336920401082157475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8671625779172216455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c91f40a5914970f4d9da46b64c7a9e7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  formationLocked: 0
+  centerPosition: {x: 0, y: 0, z: 0}
+  formationToggle: {fileID: 584024451376608439, guid: df868ff4fec023f49a7329d008f7c7fa,
+    type: 3}

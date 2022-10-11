@@ -1,0 +1,4 @@
+var class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_items_1_1_equippable_armor =
+[
+    [ "DamageReceivedMultiplier", "class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_items_1_1_equippable_armor.html#ae01a9c13cd681767ecdaceb8f91d173c", null ]
+];

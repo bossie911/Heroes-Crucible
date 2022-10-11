@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ea885a82d1ec854bb9d67eb643fcc64, type: 3}
+  m_Name: Archers
+  m_EditorClassIdentifier: 
+  typeName: Archers
+  type: 2
+  isWeakToType: 1
+  icon: {fileID: 21300000, guid: 97e8ba042f988784caba337a2453ba51, type: 3}
+  prefabUnit: {fileID: 836736013493069460, guid: 0fb6477fc8f85c74b8d6b55559dea88b,
+    type: 3}
+<<<<<<< HEAD
+  maxUnitCount: 12
+=======
+  maxUnitCount: 40
+>>>>>>> origin/development
+  movementSpeed: 10
+  movementSpeedRunning: 1
+  distanceFromEnemiesToStartRunning: 0
+  moveSpeedUpTime: 10
+  moveSpeedUpFinishedTime: 15
+  moveSpeedIncreasePercent: 0.5
+  damage: 4
+  weaknessHitMultiplier: 2
+  hitChance: 0.5
+  range: 40
+  autoAttackRange: 40
+  cooldown: 1.5
+  chargeUpTime: 0
+  favorGainedOnHit: 0.5
+  maxHealth: 300

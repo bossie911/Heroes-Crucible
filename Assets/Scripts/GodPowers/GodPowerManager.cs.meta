@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c1e2439df583cc74ab5dd210c12c15c2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - NetworkedMovingObject: {instanceID: 0}
+  - LigthningAura: {fileID: 7582521633882959531, guid: 3d4fbdac61bca0f43b2315664bb465e4,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

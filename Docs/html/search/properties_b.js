@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['name_1607',['Name',['../class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_modifier.html#a46d506d360658270af95fb8bb99d88ed',1,'GameStudio.HunterGatherer.StatModification.StatModifier.Name()'],['../class_game_studio_1_1_hunter_gatherer_1_1_structures_1_1_structure_blueprint.html#a77f0785b1c5d8808e62182176a5b8a38',1,'GameStudio.HunterGatherer.Structures.StructureBlueprint.Name()'],['../class_game_studio_1_1_hunter_gatherer_1_1_units_1_1_inventory_1_1_items_1_1_item.html#a0f0b1789efc038df78cd5d5e46611a50',1,'GameStudio.HunterGatherer.Units.Inventory.Items.Item.Name()']]],
+  ['nameofunitprefab_1608',['NameOfUnitPrefab',['../class_game_studio_1_1_hunter_gatherer_1_1_networking_1_1_networking_player_manager.html#a270b20176aa9b8d486dc380df3122bc9',1,'GameStudio::HunterGatherer::Networking::NetworkingPlayerManager']]],
+  ['networkedmovable_1609',['NetworkedMovable',['../class_game_studio_1_1_hunter_gatherer_1_1_a_i_1_1_state_machine_1_1_state_controller.html#a7352857a37174be4577f520731986684',1,'GameStudio.HunterGatherer.AI.StateMachine.StateController.NetworkedMovable()'],['../class_game_studio_1_1_hunter_gatherer_1_1_selection_1_1_selectable_object.html#a6a45ecde29e8b6fa15945cae97e739e9',1,'GameStudio.HunterGatherer.Selection.SelectableObject.NetworkedMovable()']]]
+];

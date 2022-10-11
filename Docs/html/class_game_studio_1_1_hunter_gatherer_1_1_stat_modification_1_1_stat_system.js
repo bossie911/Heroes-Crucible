@@ -1,0 +1,25 @@
+var class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system =
+[
+    [ "AddModifier", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#af2e19d0f26dde796f996dfda16579f4a", null ],
+    [ "AttachDisplayText", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#a2d578d36c117f879a17c4234731ab583", null ],
+    [ "AttachFillableBar", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#af53e450c577d6732ea2143d4a33d3ab6", null ],
+    [ "Clear", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#ada261f0406c8176177e360ec50e87267", null ],
+    [ "ModifyCurrent", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#a9a5865fc732c30a16f172b497b5e375e", null ],
+    [ "ModifyMax", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#a1ac94d02176e5c9b69a8c15731c753df", null ],
+    [ "RemoveActiveModifier", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#aab57a3cf19d00fa6fdc9bb966b0448c5", null ],
+    [ "ResetReferences", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#a4c2a0f06b8ac403d955e20224b1d0d1d", null ],
+    [ "SetCurrentToMax", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#a89a1dc1e9ed55a61ada9c5cba8759d4c", null ],
+    [ "SetCurrentToZero", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#a1e3af253c629800d81736d3322863cd2", null ],
+    [ "SetPhotonView", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#a229890c8e786740063fb6ea466e27e12", null ],
+    [ "StreamState", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#a0eabfdfd17affe33651fed064e7eebd1", null ],
+    [ "UpdateModifiers", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#a54ab1592037ab5c8d9f431f24dfad330", null ],
+    [ "UpdateVisuals", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#a81bc866df65896e9f99445b8eaa3af8c", null ],
+    [ "BeingModified", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#ae6f41aac03c3191c14e258809f8b03e6", null ],
+    [ "Current", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#ac29ba17704733f35b23d71d0f00e83a5", null ],
+    [ "IsFull", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#a95efe21e1b138469295bdeb8d829669c", null ],
+    [ "IsZero", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#ae89e31684dfd13e15c140d1c25008be5", null ],
+    [ "Max", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#a7b29d3aa167e2900720956ac5cc2c752", null ],
+    [ "OnDecayStart", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#a1486af9dac1b18ecae9c7480157ac4fb", null ],
+    [ "OnReachedMax", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#a9c0dd135350bacbbb3151d2498a40cba", null ],
+    [ "OnRegenStart", "class_game_studio_1_1_hunter_gatherer_1_1_stat_modification_1_1_stat_system.html#a12debfb3bad87d7d75afd437c3d5e7a7", null ]
+];

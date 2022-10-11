@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="Snapshot" id="{c107e28e-873b-4caa-9492-68fe72210c48}">
+		<property name="name">
+			<value>Sewer Reverb</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{204ed808-83ea-42f4-b502-9b293dd2b6ba}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{c9ffd27b-66aa-4524-8d2b-8649d76d7853}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{25bbdf5f-5e3a-4a8b-a360-3c32ba71f4cf}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{6c3dbdbb-335e-48be-b08a-95d299ebf796}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{a112e256-b81f-4dcd-9964-55b8a9ced8a7}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{c9ffd27b-66aa-4524-8d2b-8649d76d7853}">
+		<relationship name="modulators">
+			<destination>{4cdd3c70-3af6-4036-871f-3c112c5aa33e}</destination>
+		</relationship>
+	</object>
+	<object class="MarkerTrack" id="{25bbdf5f-5e3a-4a8b-a360-3c32ba71f4cf}" />
+	<object class="Timeline" id="{6c3dbdbb-335e-48be-b08a-95d299ebf796}" />
+	<object class="SnapshotMasterTrack" id="{a112e256-b81f-4dcd-9964-55b8a9ced8a7}" />
+	<object class="ADSRModulator" id="{4cdd3c70-3af6-4036-871f-3c112c5aa33e}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>snapshotIntensity</value>
+		</property>
+		<property name="peakValue">
+			<value>100</value>
+		</property>
+		<property name="sustainValue">
+			<value>100</value>
+		</property>
+	</object>
+</objects>

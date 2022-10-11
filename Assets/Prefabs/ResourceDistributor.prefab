@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8831096043442962834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8831096043442962847}
+  - component: {fileID: 8831096043442962844}
+  - component: {fileID: 8831096043442962845}
+  - component: {fileID: 8831096043442962841}
+  - component: {fileID: 8831096043442962846}
+  m_Layer: 0
+  m_Name: ResourceDistributor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8831096043442962847
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8831096043442962834}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8831096043442962844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8831096043442962834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03a58f9d8453ee40bfad960c0f31905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  resourceSettings:
+  - name: God Favor
+    resource: {fileID: 3740499539615894541, guid: c047d3c672d6e074e88cbceeedb5ab13,
+      type: 3}
+    spawnPoints: {fileID: 9013676015554883750, guid: a88aba44ba7439c4a8ca1cb651d115e1,
+      type: 3}
+    minActiveResources: 0
+    maxActiveResources: 10
+    playerMultiplier: 4
+  - name: BlackSmith
+    resource: {fileID: 411264026731914737, guid: 6cdfc50d60ce4b54f8fdd7808101ff8a,
+      type: 3}
+    spawnPoints: {fileID: 8680909751509752294, guid: 28500212121079746ab7a52ae8ae446b,
+      type: 3}
+    minActiveResources: 1
+    maxActiveResources: 2
+    playerMultiplier: 1
+  - name: God Power
+    resource: {fileID: 3740499539615894541, guid: 42679791b36b82f4cb5fab2d93ac3c96,
+      type: 3}
+    spawnPoints: {fileID: 6158853353461385745, guid: 2c959fcc7a3bdee4d803f18367eec77d,
+      type: 3}
+    minActiveResources: 2
+    maxActiveResources: 8
+    playerMultiplier: 3
+  resourceManager: {fileID: 8831096043442962845}
+--- !u!114 &8831096043442962845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8831096043442962834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26eb7982fc890234ba737543ab0b9bae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resourcePlacerSemiRandom: {fileID: 8831096043442962844}
+  activePickUps: []
+--- !u!114 &8831096043442962841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8831096043442962834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54f06e0e5d945b44a61c29f6b2a1df4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resource: {fileID: 754053810025643350, guid: 2d6e976b45a44dd4aa2c92395a4bc71f, type: 3}
+  placeholderObject: {fileID: 1606428931924921371, guid: bf47b6be50e9df54eb85d09a87c2d80c,
+    type: 3}
+  spawnsParent: {fileID: 0}
+  useCustomRotation: 1
+  spawnRotation: {x: 0, y: 0, z: 0, w: 0}
+  useRandomRotation: 1
+  maxRotationOffset: {x: 0, y: 360, z: 0}
+  useCustomDist: 1
+  distanceFromGround: 0
+  minHeight: 28
+  amountOfSpawns: 25
+  rangeSettings:
+    BottomLeftCorner: {x: 100, y: 100}
+    Width: 650
+    Height: 650
+  navMeshSampleDistance: 25
+  usePoissonDiscSampling: 1
+  range: 50
+  maxRayCastLength: 500
+--- !u!114 &8831096043442962846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8831096043442962834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  visible: 0
+  m_AssetId: 2323bd12d23c2ce48ae3266ded9d4f87
+  hasSpawned: 0
